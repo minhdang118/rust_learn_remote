@@ -12,7 +12,7 @@ read msg
 cd /home/minhdang118/rust_learn_local/${dirname}
 cargo clean
 
-# Return to workspace, commit and push to remote
+# Return to workspace, add directory, commit and push to remote
 cd ..
 git add ${dirname}
 git commit -m "${msg}"
