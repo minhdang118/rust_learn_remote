@@ -14,6 +14,6 @@ cargo clean
 
 # Return to workspace, commit and push to remote
 cd ..
-git add .
+git add ${dirname}
 git commit -m "${msg}"
 git push
