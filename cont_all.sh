@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Prompt commit message
-echo "Commit message:"
+printf "Commit message: "
 read msg
 
 # Add everything, commit and push to remote

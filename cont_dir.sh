@@ -1,11 +1,11 @@
 #!/bin/sh
 
 # Prompt directory to contribute
-echo "Directory: "
+printf "Directory: "
 read dirname
 
 # Prompt commit message
-echo "Commit message: "
+printf "Commit message: "
 read msg
 
 # Access directory and delete target files
